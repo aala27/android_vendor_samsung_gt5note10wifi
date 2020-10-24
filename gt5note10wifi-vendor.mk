@@ -121,7 +121,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt5note10wifi/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/samsung/gt5note10wifi/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/samsung/gt5note10wifi/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
-    vendor/samsung/gt5note10wifi/proprietary/lib/libaudio-resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-resampler.so
+    vendor/samsung/gt5note10wifi/proprietary/lib/libaudio-resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-resampler.so \
+    vendor/samsung/gt5note10wifi/proprietary/vendor/usr/idc/sec_e-pen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/sec_e-pen.idc
 
 #    vendor/samsung/gt5note10wifi/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so
 #    vendor/samsung/gt5note10wifi/proprietary/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_metadata.so \
